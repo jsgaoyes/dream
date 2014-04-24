@@ -23,6 +23,7 @@ SECRET_KEY = 'zfs1982a(i17av*z2dqrud_04l1c2_yae0*^332dj(wn-o-!5k'
 DEBUG = True
 
 TEMPLATE_DEBUG = True
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, "templates")]
 
 ALLOWED_HOSTS = []
 
